@@ -1,0 +1,16 @@
+
+server:
+  port: 8001
+
+spring:
+  application:
+    name: springcloud-eureka
+
+eureka:
+  instance:
+    hostname: eureka-01
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-02:8002/eureka/,http://eureka-03:8003/eureka/

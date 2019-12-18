@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config" />
+        <module name="springcloud" />
+        <module name="springcloud-client-01" />
+        <module name="springcloud-client-02" />
+        <module name="springcloud-eureka-01" />
+        <module name="springcloud-eureka-02" />
+        <module name="springcloud-eureka-03" />
+        <module name="springcloud-provider-01" />
+        <module name="springcloud-provider-02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="springcloud-client-01" target="1.8" />
+      <module name="springcloud-client-02" target="1.8" />
+      <module name="springcloud-eureka-01" target="1.8" />
+      <module name="springcloud-eureka-02" target="1.8" />
+      <module name="springcloud-eureka-03" target="1.8" />
+      <module name="springcloud-provider-01" target="1.8" />
+      <module name="springcloud-provider-02" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

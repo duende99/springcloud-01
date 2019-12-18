@@ -1,0 +1,28 @@
+
+server:
+  port: 8010
+
+spring:
+  application:
+    name: springcloud-client-provider
+
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka-01:8001/eureka/,http://eureka-02:8002/eureka/,http://eureka-03:8003/eureka/
+
+  #配置中心
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/duende99/Demo1.git
+          searchPaths: test
+#          uri: https://github.com/zuowj/learning-demos.git
+#          searchPaths: config
+          username:
+          password:
+#          default-label: master
+#          basedir: D:\linshi
+#          force-pull: true
